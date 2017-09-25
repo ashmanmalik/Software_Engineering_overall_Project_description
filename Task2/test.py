@@ -26,7 +26,7 @@ def getListFromFile(filename):
   try:
     file = open(filename)
   except:
-    print("Error, dictionary file does not exist.")
+    #print("Error, dictionary file does not exist.")
     exit(0)
   lines = file.readlines()
   for line in range(len(lines)):  
